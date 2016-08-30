@@ -1,0 +1,35 @@
+.win{
+    background-color:rgb(244,247,237);
+}
+.header{
+    width:960px;
+    height:30px;
+    margin:20px auto;
+    line-height:30px;
+}
+.logo{
+    font-size:20px;
+    float:left;
+}
+.logo a{
+    color:rgb(132, 160, 153);
+    text-decoration: none;
+}
+.nav{
+    float:left;
+    list-style:none;
+}
+.nav li{
+    float:left;
+}
+.nav a{
+    text-decoration:none;
+    margin-right:30px;
+    color:rgba(85,85,85,0.5);
+}
+.nav a:hover{
+    color:#555;
+}
+.nav .active a{
+    color:#555;
+}
