@@ -1,5 +1,6 @@
 .win{
     background-color:rgb(244,247,237);
+    font-family: "Helvetica Neue", Helvetica, Arial;
 }
 .header{
     width:960px;
@@ -14,6 +15,7 @@
 .logo a{
     color:rgb(132, 160, 153);
     text-decoration: none;
+    font-family: Bodoni, Verdana, Helvetica, Arial;
 }
 .nav{
     float:left;
