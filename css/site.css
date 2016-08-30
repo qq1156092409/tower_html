@@ -33,3 +33,24 @@
 .nav .active a{
     color:#555;
 }
+
+
+
+
+
+
+/*copy from tower*/
+.header .logo .twr {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 30px;
+    vertical-align: top;
+}
+.twr {
+    display: inline-block;
+    font: normal normal normal 14px/1 'Tower';
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
