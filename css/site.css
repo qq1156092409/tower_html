@@ -37,12 +37,16 @@
 }
 
 .container{
-    width:960px;
-    min-height: 720px;
+    width:900px;
+    min-height: 680px;
     background:white;
     border: 1px solid #dbdfd6 ;
     margin:0 auto;
     box-shadow:0 5px 15px rgba(0,0,0,0.05);
+    padding:20px 30px;
+}
+.tools>div{
+    float:right;
 }
 .footer{
     text-align:center;
