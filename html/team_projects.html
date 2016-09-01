@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>team_projects</title>
+    <link rel="shortcut icon" href="https://tower.im/favicon.ico" type="image/x-icon">
     <link href="../css/site.css" rel="stylesheet" type="text/css">
 </head>
 <body class="win">
@@ -18,21 +19,73 @@
         <li><a href="#">动态</a></li>
         <li><a href="#">周报</a></li>
         <li><a href="#">日历</a></li>
+        <li><a href="#">团队</a></li>
         <li><a href="#">我自己</a></li>
         <li><a href="#">移动版 <img src="../images/new.png" alt="new" width="15"></a></li>
     </ul>
-    <div class="command-bar"></div>
+    <div class="command-bar">
+        <label for="search"><i class="twr twr-search"></i></label>
+        <input class="search" type="text" name="search" id="search" placeholder="搜索">
+        <a href="#">
+            <i class="twr twr-bell-o"></i>
+        </a>
+        <a href="#">
+            <img src="../images/3c1e91ce593149a5a1e13306470f1c37.png" alt="">
+            <i class="twr twr-caret-down"></i>
+        </a>
+    </div>
 </div>
 <div class="container">
     <div class="tools">
         <div>
             <a href="#">新建项目</a>
-            <a href="#">新建项目2</a>
+            <a class="active" href="#" title="网格视图"><i class="twr twr-grid-view"></i></a>
+            <a href="#" title="列表视图"><i class="twr twr-list-view"></i></a>
         </div>
+    </div>
+    <div class="project-list">
+        <a class="project">
+            <i class="badge i1 c1"></i>
+            <span class="name">测试项目-new</span>
+            <i class="edit-badge"></i>
+        </a>
+        <a class="project">
+            <i class="badge i2 c2"></i>
+            <span class="name">测试项目-new</span>
+            <i class="edit-badge"></i>
+        </a>
+        <a class="project">
+            <i class="badge i3 c3"></i>
+            <span class="name">测试项目-new</span>
+            <i class="edit-badge"></i>
+        </a>
+        <a class="project">
+            <i class="badge i4 c4"></i>
+            <span class="name">测试项目-new</span>
+            <i class="edit-badge"></i>
+        </a>
+        <a class="project">
+            <i class="badge i5 c5"></i>
+            <span class="name">测试项目-new</span>
+            <i class="edit-badge"></i>
+        </a>
+        <a class="project">
+            <i class="badge i7 c7"></i>
+            <span class="name">测试项目-new</span>
+            <i class="edit-badge"></i>
+        </a>
+    </div>
+    <div class="project-footer">
+        <a href="#">管理项目模板</a>
+        <a href="#">管理已归档项目</a>
     </div>
 </div>
 <div class="footer">
     &copy; <a href="#">彩程设计</a>
 </div>
+<a class="feedback" href="#">
+    <i class="twr twr-comments-o"></i>
+    <span>帮助</span>
+</a>
 </body>
 </html>
