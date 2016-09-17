@@ -5,15 +5,36 @@
     <title>team_projects</title>
     <link rel="shortcut icon" href="https://tower.im/favicon.ico" type="image/x-icon">
     <link href="../css/site.css" rel="stylesheet" type="text/css">
+    <link href="../css/font.css" rel="stylesheet" type="text/css">
 </head>
 <body class="win">
 <div class="header">
-    <h1 class="logo">
-        <a href="#">
-            <span>方片集团</span>
-            <i class="twr twr-caret-down"></i>
-        </a>
-    </h1>
+    <div class="popover popover-logo">
+        <h1 class="logo popover-btn">
+            <a href="#">
+                <span>方片集团</span>
+                <i class="twr twr-caret-down"></i>
+            </a>
+        </h1>
+        <div class="popover-wrap">
+            <div class="popover-arrow">
+                <i class="arrow arrow-border"></i>
+                <i class="arrow arrow-basic"></i>
+            </div>
+            <div class="popover-content popover-logo-content">
+                <ul>
+                    <li><a href="#">团队账号</a></li>
+                    <li><a href="#">升级到 Pro 版</a></li>
+                    <li><p><span>切换团队</span></p></li>
+                    <li><a href="#">团队a</a></li>
+                    <li><a href="#">团队a</a></li>
+                    <li><a href="#">团队a</a></li>
+                    <li class="part-line"></li>
+                    <li><a class="small" href="#">创建/管理团队</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <ul class="nav">
         <li class="active"><a href="#">项目</a></li>
         <li><a href="#">动态</a></li>
@@ -26,13 +47,51 @@
     <div class="command-bar">
         <label for="search"><i class="twr twr-search"></i></label>
         <input class="search" type="text" name="search" id="search" placeholder="搜索">
-        <a href="#">
-            <i class="twr twr-bell-o"></i>
-        </a>
-        <a href="#">
-            <img src="../images/3c1e91ce593149a5a1e13306470f1c37.png" alt="">
-            <i class="twr twr-caret-down"></i>
-        </a>
+        <div class="popover popover-notify">
+            <a class="popover-btn" href="#">
+                <i class="twr twr-bell-o"></i>
+            </a>
+            <div class="popover-wrap">
+                <div class="popover-arrow">
+                    <i class="arrow arrow-border"></i>
+                    <i class="arrow arrow-basic"></i>
+                </div>
+                <div class="popover-content popover-notify-content">
+                    <div class="notify-header">
+                        <span>通知</span>
+                        <div class="notify-icons">
+                            <a href="#" title="全部设置成已读"><i class="twr twr-check"></i></a>
+                            <a href="#" title="设置通知发送方式"><i class="twr twr-cog"></i></a>
+                        </div>
+                    </div>
+                    <div class="notify-body">
+                        <p>- 没有新通知 -</p>
+                    </div>
+                    <a href="#" class="notify-all">查看全部</a>
+                </div>
+            </div>
+        </div>
+        <div class="popover popover-avatar">
+            <a class="popover-btn" href="#">
+                <img src="../images/3c1e91ce593149a5a1e13306470f1c37.png" alt="">
+                <i class="twr twr-caret-down"></i>
+            </a>
+            <div class="popover-wrap">
+                <div class="popover-arrow">
+                    <i class="arrow arrow-border"></i>
+                    <i class="arrow arrow-basic"></i>
+                </div>
+                <div class="popover-content popover-avatar-content">
+                    <ul>
+                        <li><a href="#">个人设置</a></li>
+                        <li><a href="#">通知设置</a></li>
+                        <li class="part-line"></li>
+                        <li><a href="#">最新功能</a></li>
+                        <li><a href="#">退出</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <div class="container">
@@ -87,5 +146,9 @@
     <i class="twr twr-comments-o"></i>
     <span>帮助</span>
 </a>
+
+
+<script src="../js/jquery-3.1.0.min.js"></script>
+<script src="../js/site.js"></script>
 </body>
 </html>
